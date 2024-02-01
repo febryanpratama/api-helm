@@ -1,0 +1,21 @@
+#map{
+    width: 20px;
+    height:20px;
+    margin: 0 auto;
+}
+
+.m-bottom-bar {
+    display: none !important;
+}
+
+@media only screen and (max-width: 767px){
+    .web-nav {
+        display:none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .m-bottom-bar {
+        display: block !important;
+    }
+}

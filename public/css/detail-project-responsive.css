@@ -1,0 +1,332 @@
+.progress {
+	height: 1rem !important;
+}
+
+.w-20 {
+	width: 20% !important;
+}
+
+.w-25 {
+	width: 25% !important;
+}
+
+.w-30 {
+	width: 30% !important;
+}
+
+.mt-03 {
+	margin-top: 0.3rem !important;
+}
+
+.information-list li {
+    list-style: none;
+}
+
+tr {
+	width: 100%;
+	display: inline-table;
+	height: 60px;
+	table-layout: fixed;
+}
+
+.tabel-list-todo {
+	height: 300px; 
+	display: -moz-groupbox;
+}
+
+.results-todo {
+	overflow-y: scroll;
+	height: 250px;
+	position: absolute;
+}
+
+.pagination {
+	margin-bottom: 0;
+}
+
+/* Responsivity */
+@media screen and (max-width: 576px) {
+	.action-menu-project {
+		position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 13%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: -3% !important;
+	    top: 1.5% !important;
+	    margin-left: -3%;
+	    border-radius: 10px;
+	}
+
+	.action-content {
+		position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 17%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 20% !important;
+	    margin-left: 72%;
+	    border-radius: 10px;
+	}
+
+	.action-todo {
+		position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 17%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 10% !important;
+	    margin-left: 72%;
+	    border-radius: 10px;
+	}
+
+	.container-fluid-custom {
+		width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.results-task-body-modal {
+		overflow: hidden scroll;
+		max-height: 400px !important;
+		min-height: 400px !important;
+	}
+
+	.scroll-element {
+	    overflow-y: scroll;
+	    max-height: 1000px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.action-menu-project {
+		position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 9%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 3% !important;
+	    margin-left: -2%;
+	    border-radius: 10px;
+	}
+
+	.action-content {
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 30%;
+		box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+		padding: 5px 10px;
+		z-index: 1;
+		top: 47% !important;
+		margin-left: 50%;
+		border-radius: 10px;
+	}
+
+	.action-todo {
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 23%;
+		box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+		padding: 5px 10px;
+		z-index: 1;
+		top: 10% !important;
+		margin-left: 61%;
+		border-radius: 10px;
+	}
+
+	.container-fluid-custom {
+		width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.fs-custom b {
+		font-size: 10px !important;
+	}
+
+	.fs-custom {
+		font-size: 12px !important;
+	}
+
+	.results-task-body-modal {
+		overflow: hidden scroll;
+		max-height: 400px !important;
+		min-height: 400px !important;
+	}
+
+	.scroll-element {
+		overflow-y: scroll;
+		max-height: 1000px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.action-menu-project {
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 8%;
+		box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+		padding: 5px 10px;
+		z-index: 1;
+		top: 4% !important;
+		margin-left: -3%;
+		border-radius: 10px;
+	}
+
+	.action-content {
+		position: absolute;
+		background-color: #f9f9f9;
+		min-width: 30%;
+		box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+		padding: 5px 10px;
+		z-index: 1;
+		top: 47% !important;
+		margin-left: 50%;
+		border-radius: 10px;
+	}
+
+	.action-todo {
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 15%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 10% !important;
+	    margin-left: 75%;
+	    border-radius: 10px;
+	}
+
+	.container-fluid-custom {
+		width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.scroll-element {
+		overflow-y: scroll;
+		max-height: 1000px;
+	}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+	.action-menu-project {
+		position: fixed;
+		background-color: #f9f9f9;
+		min-width: 5%;
+		box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+		padding: 5px 10px;
+		z-index: 1;
+		top: 17% !important;
+		margin-left: -1.5%;
+		border-radius: 10px;
+	}
+	
+	.action-content {
+		position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 25%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 30% !important;
+	    margin-left: 62%;
+	    border-radius: 10px;
+	}
+
+	.action-todo {
+		position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 20%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 10% !important;
+	    margin-left: 70%;
+	    border-radius: 10px;
+	}
+
+	.container-fluid-custom {
+		width: 90%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.history-report-area {
+		height: 200px;
+		overflow-y: scroll;
+	}
+
+	.scroll-element {
+		overflow-y: scroll;
+		max-height: 700px;
+	}
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2000px) {
+	.action-menu-project {
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 5%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 3% !important;
+	    margin-left: -2%;
+	    border-radius: 10px;
+	}
+
+	.action-content {
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 25%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 40% !important;
+	    margin-left: 60%;
+	    border-radius: 10px;
+	}
+
+	.action-todo {
+		position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 20%;
+	    box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+	    padding: 5px 10px;
+	    z-index: 1;
+	    top: 10% !important;
+	    margin-left: 70%;
+	    border-radius: 10px;
+	}
+
+	.container-fluid-custom {
+		width: 90%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+	.history-report-area {
+		height: 200px;
+		overflow-y: scroll;
+	}
+
+	.scroll-element {
+		overflow-y: scroll;
+		max-height: 750px;
+	}
+}

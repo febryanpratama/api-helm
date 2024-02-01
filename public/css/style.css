@@ -1,0 +1,299 @@
+.btn-primary {
+    color: #fff !important;
+    background-color: #62DDBD !important;
+    border-color: #62DDBD !important;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #62DDBD !important;
+    border-color: #62DDBD !important;
+}
+
+.btn-outline-primary {
+  color: #62DDBD !important;
+  border-color: #62DDBD !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #62DDBD;
+  border-color: #62DDBD;
+}
+
+.text-primary-custom {
+    color: #62DDBD;
+    /*border-color: #db851a;*/
+}
+
+.card {
+    /*border-radius: 25px 25px 25px 25px;*/
+    overflow: hidden;
+}
+
+.header-custom {
+    background-color: #ffffff;
+}
+
+a.header-custom {
+    color: black
+}
+
+a:hover {
+    color: black;
+}
+
+span.header-custom {
+    color: black
+}
+
+/* -- Navbar */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+    background-color: #17A2B8;
+}
+
+.dropdown-menu{
+    top: 40px;
+    right: 0px;
+    left: unset;
+    /*width: 460px;*/
+    box-shadow: 0px 5px 7px -1px #c1c1c1;
+    padding-bottom: 0px;
+    padding: 0px;
+}
+
+.dropdown-menu:before{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 12px;
+    border:10px solid #c02c4b;
+    border-color: transparent transparent #c02c4b transparent;
+}
+
+.head{
+    padding:5px 15px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.footer{
+    padding:5px 15px;
+    border-radius: 0px 0px 3px 3px;
+}
+
+.notification-box{
+    padding: 10px 0px;
+}
+
+.bg-gray{
+    background-color: #eee;
+}
+
+/* -- Responsivity */
+/* Mobile */
+@media (max-width: 640px) {
+    .dropdown-menu{
+        top: 50px;
+        left: -16px;
+        width: 290px;
+    }
+    
+    .nav{
+        display: block;
+    }
+    
+    .nav .nav-item,.nav .nav-item a{
+        padding-left: 0px;
+    }
+    
+    .message{
+        font-size: 13px;
+    }
+
+    .mb-custom {
+        margin-bottom: 20px;
+    }
+
+    .width-height-img-upload {
+        width: 100px;
+        height: 100px;
+    }
+
+    /*.text-description-upload {
+        padding-left: 80px;
+        font-size: 12px;
+    }*/
+
+    .width-height-avatar {
+        width: 80%;
+        height: 80%;
+        margin-left: 10px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 568px) {
+    .width-show-project {
+        max-width: 95%;
+    }
+
+    .width-height-img-upload {
+        width: 150px;
+        height: 150px;
+    }
+
+    .width-height-img-upload-checkout {
+        width: 120px;
+        height: 120px;
+    }
+
+    .width-height-avatar {
+        width: 100%;
+        height: 100%;
+        margin-left: 10px;
+    }
+}
+
+.hide-element {
+    display: none;
+}
+
+/* Home */
+.btn-white {
+    background-color: white;
+}
+
+.scroll-y {
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.scroll-x {
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.card-min-max-y {
+    min-height: 350px;
+    max-height: 350px;
+}
+
+/*.search-icon {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}*/
+
+/* Carousel */
+.card-carousel {
+    height: 150px;
+}
+
+.card-hover:hover {
+    cursor: pointer;
+}
+
+.mt-4-5 {
+    margin-top: 1.8rem !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.card-min-max-y-half {
+    min-height: 250px;
+    max-height: 250px;
+}
+
+.span-header-checkin-checkout {
+    font-size: 18px;
+}
+
+.btn-radius {
+    border-radius: 10px;
+}
+
+.border-modal {
+    border-radius: 20px;
+}
+
+.border-modal-header {
+    border-radius: 20px 20px 0 0;
+}
+
+.dropzone-area {
+    cursor: pointer;
+}
+
+.cursor-area {
+    cursor: pointer;
+}
+
+.border-radius-card-header {
+    border-radius: 0 0 0 20px !important;
+}
+
+/* -- Message */
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+}
+
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+.toast-info {
+    background-color: #2f96b4;
+}
+
+/* -- Transition Collapse */
+.collapsing {
+  transition: all 0.25s ease-in-out, -webkit-transform 0.25s ease-in-out;
+}
+
+/* -- Swiper Home */
+.swiper-container-deadline {
+    height: 20px !important;
+}
+
+/* Search Message/Chat */
+.highlight {
+  background-color: yellow;
+}
+
+.highlight.active-highlight {
+  background: orange;
+}
+
+/* Rotate Angle up/down */
+.over-icon {
+    transform: rotate( -180deg );            
+    transition: transform 150ms ease;
+}
+
+.out-icon {
+    transform: rotate( -360deg );            
+    transition: transform 150ms ease;
+}

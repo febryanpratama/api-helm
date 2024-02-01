@@ -1,0 +1,40 @@
+.card-detail {
+	border-radius: 5px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border: 0 !important;
+}
+
+.text-color {
+	color: #62ddbd !important;
+}
+
+.border-left-element {
+	border-left: 2px solid #62ddbd;
+	padding-left: 10px;
+}
+
+@media screen and (max-width: 576px) {
+	.pl-sm-2 {
+		padding-left: 2.5rem !important;
+	}
+
+	.mb-sm-2 {
+		margin-bottom: 1.5rem !important;
+	}
+}
+
+.custom-height-detail-order {
+	height: 16vw;
+}
+
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	height: auto;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 30px;
+}
